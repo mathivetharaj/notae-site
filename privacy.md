@@ -4,7 +4,7 @@ title: Privacy policy
 permalink: /privacy/
 ---
 
-**Effective 14 November 2026**
+**Effective 15 November 2026**
 
 Notae is built so that your words stay yours. The developer runs no servers and collects no data. This policy explains what Notae does with your audio, your text and your settings.
 
@@ -13,14 +13,14 @@ Notae is built so that your words stay yours. The developer runs no servers and 
 - Notae listens only while you are recording: between your taps in the app, or between your taps on the Notae Keyboard's dictation button during a keyboard session.
 - Audio is kept in memory while it is transcribed and is never written to storage.
 - By default, transcription runs on your device with Apple's speech recognition.
-- If you turn on **Use OpenAI for transcription** and add your own OpenAI key, the audio of each recording is sent directly from your device to OpenAI when you stop, and is not kept by Notae.
+- If you choose **ElevenLabs Scribe** or **OpenAI** under Settings › Transcription and add your own key for that service, the audio of each recording is sent directly from your device to that provider when you stop, together with your custom vocabulary and a list of common work terms to help it spell them right. Notae doesn't keep the audio.
 
 ## Your text
 
 - By default, Notae writes text and prompts on your device with Apple Intelligence, where available, or produces a clean transcript with no AI model.
 - If you add your own Anthropic (Claude) or OpenAI key, Notae can send the transcript of a dictation, the instructions for the mode you chose, and your custom vocabulary and snippets, directly from your device to that provider. Audio is never sent for this.
 - Before the first request to a provider, Notae shows what will be sent and asks for your permission. You can turn cloud providers off in Settings at any time.
-- What you send to a provider is covered by your agreement with that provider: see the [Anthropic privacy policy](https://www.anthropic.com/legal/privacy) and the [OpenAI privacy policy](https://openai.com/policies/privacy-policy). Notae asks OpenAI not to store responses.
+- What you send to a provider is covered by your agreement with that provider: see the [Anthropic privacy policy](https://www.anthropic.com/legal/privacy), the [OpenAI privacy policy](https://openai.com/policies/privacy-policy) and the [ElevenLabs privacy policy](https://elevenlabs.io/privacy-policy). Notae asks OpenAI not to store responses.
 - API keys are stored in your device's Keychain and are only sent to the provider they belong to.
 
 ## The Notae Keyboard

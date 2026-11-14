@@ -36,6 +36,11 @@ A session stays ready for 5 minutes of inactivity (you can change this in Settin
 
 Notae always shows which engine wrote each result.
 
+## Transcription
+
+- **This device (default):** private and offline. Pick your accent under **Settings › Transcription › Accent** if it differs from your region.
+- **ElevenLabs Scribe or OpenAI:** for the best accuracy with accents and technical terms, add your own key and choose it under **Settings › Transcription › Transcribe with**. Words still appear live as you speak; when you stop, the audio goes to that service and its transcript replaces the live one. If it can't be reached, Notae uses the on-device transcript.
+
 ## Troubleshooting
 
 - **"Speech model not ready":** keep Notae open on Wi-Fi until the download finishes.
