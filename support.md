@@ -40,6 +40,7 @@ Notae always shows which engine wrote each result.
 
 - **This device (default):** private and offline. Pick your accent under **Settings › Transcription › Accent** if it differs from your region.
 - **ElevenLabs Scribe or OpenAI:** for the best accuracy with accents and technical terms, add your own key and choose it under **Settings › Transcription › Transcribe with**. Words still appear live as you speak; when you stop, the audio goes to that service and its transcript replaces the live one. If it can't be reached, Notae uses the on-device transcript.
+- **Mixing languages:** if you mix another language into English, choose what happens under **Settings › Transcription › Other languages**: keep those words as spoken, translate them to English, or write them in English letters. Translation and English letters need an AI mode (not Clean transcript).
 
 ## Troubleshooting
 
